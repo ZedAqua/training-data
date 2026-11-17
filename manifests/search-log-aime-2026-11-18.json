@@ -1,0 +1,40 @@
+{
+  "searched_at": "2026-11-18",
+  "platform": "ModelScope",
+  "query": "AIME",
+  "search_url": "https://modelscope.cn/datasets?page=1&query=AIME",
+  "candidates": [
+    {
+      "dataset_id": "evalscope/aime25",
+      "url": "https://modelscope.cn/datasets/evalscope/aime25",
+      "observed": {
+        "rows": 30,
+        "fields": ["problem", "answer", "id"],
+        "license": "apache-2.0",
+        "split": "test"
+      },
+      "decision": "reuse_for_basic_aime25_evaluation"
+    },
+    {
+      "dataset_id": "evalscope/aime26",
+      "url": "https://modelscope.cn/datasets/evalscope/aime26",
+      "observed": {
+        "rows": 30,
+        "fields": ["problem", "answer", "id"],
+        "license": "apache-2.0",
+        "split": "test"
+      },
+      "decision": "reuse_for_basic_aime26_evaluation"
+    }
+  ],
+  "new_dataset": {
+    "dataset_id": "Zed2000/aime-eval-2025-2026",
+    "collection": "evaluation-datasets",
+    "reason_for_new_dataset": [
+      "combine the two year splits under one pinned evaluation revision",
+      "retain source PDFs, source README files, and HTML provenance snapshots",
+      "preserve the local manifest and source hashes used for this evaluation run",
+      "keep the curated private audit package separate from the reusable public source datasets"
+    ]
+  }
+}
