@@ -1,0 +1,274 @@
+{
+  "generated_at": "2026-11-18",
+  "source_manifest": "D:\\Users\\ziren.liao\\Documents\\ChatGPT\\Financial-model-traning\\research\\training-plan\\data-pilot\\20261117\\eval-snapshot\\manifest.json",
+  "modelscope_collection": "evaluation-datasets",
+  "summary": {
+    "items": 21,
+    "present_local": 19,
+    "pending": 1,
+    "excluded": 1,
+    "bytes": 2333482972,
+    "file_count": 7536
+  },
+  "items": [
+    {
+      "id": "browsecomp",
+      "source": "openai/simple-evals",
+      "version": "652c89d0ca9df547706735883097e9537d40dc47",
+      "status": "present_local",
+      "file_count": 2,
+      "bytes": 2048954,
+      "roles": [
+        "decrypted_task_input",
+        "encrypted_task_source"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "seal0",
+      "source": "vtllms/sealqa",
+      "version": "2026-11-04 source snapshot",
+      "status": "present_local",
+      "file_count": 1,
+      "bytes": 71414,
+      "roles": [
+        "task_input"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "xbench_2505_2510",
+      "source": "xbench-ai/xbench-evals",
+      "version": "17c562192cc7e62215bfb98b65e9f8806fb95504",
+      "status": "present_local",
+      "file_count": 3,
+      "bytes": 252812,
+      "roles": [
+        "decrypted_task_input",
+        "encrypted_task_source"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "finsearchcomp_t2t3",
+      "source": "randomtutu/FinSearchComp",
+      "version": "55b6393fcf3c8f749ba5a69a70b20d4ef6f67caf",
+      "status": "present_local",
+      "file_count": 2,
+      "bytes": 11554128,
+      "roles": [
+        "alternate_source_excluded_from_main_split",
+        "official_task_source"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "tau3",
+      "source": "tau2-bench/tau3 adapter",
+      "version": "v1.0.0 revised; local upstream present",
+      "status": "present_local",
+      "file_count": 3,
+      "bytes": 14854867,
+      "roles": [
+        "task_input"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "spreadsheetbench2",
+      "source": "RUCKBReasoning/SpreadsheetBench-2 / KAKA22/SpreadsheetBench-v2",
+      "version": "a7bdc2d358e052d35a94768e1f487c0d9e9c0011",
+      "status": "present_local",
+      "file_count": 224,
+      "bytes": 5106878,
+      "roles": [
+        "upstream_checkout"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "swebench_verified",
+      "source": "swebench-verified@1.0",
+      "version": "86723674f04e4209ac479d0fb75d9d9f44b4377e",
+      "status": "present_local",
+      "file_count": 3001,
+      "bytes": 15004925,
+      "roles": [
+        "local_dataset_and_runtime"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "deepresearch_bench",
+      "source": "Ayanami0730/deep_research_bench",
+      "version": "f2735b5c3636759c22f9e936c0232de8bf545b67",
+      "status": "present_local",
+      "file_count": 6,
+      "bytes": 20218022,
+      "roles": [
+        "raw_task_and_reference_data"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "finance_agent_v1_v2",
+      "source": "vals-ai/finance-agent",
+      "version": "v1=8ba65f81ab759a8e0d44e72aabc5a47cf839d563; v2=03c7c432b645f42f81ef3c13957100b182217d7c",
+      "status": "present_local",
+      "file_count": 2,
+      "bytes": 118817,
+      "roles": [
+        "public_task_source"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "skillsbench",
+      "source": "skillsbench",
+      "version": "f860ecf02ef53412a030f8661c83d644b739ff01",
+      "status": "present_local",
+      "file_count": 2904,
+      "bytes": 1132952547,
+      "roles": [
+        "upstream_checkout"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "aime_2025_2026",
+      "source": "math-ai-org/aime25 + aime26",
+      "version": "git snapshots; PDF source",
+      "status": "present_local",
+      "file_count": 8,
+      "bytes": 475449,
+      "roles": [
+        "source_repo"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "livecodebench_v6",
+      "source": "LiveCodeBench/code_generation_lite",
+      "version": "HF revision 0fe84c3912ea0c4d4a78037083943e8f0c4dd505, test6",
+      "status": "present_local",
+      "file_count": 57,
+      "bytes": 139099444,
+      "roles": [
+        "release_v6_task_input",
+        "source_repo"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "bfcl",
+      "source": "ShishirPatil/gorilla",
+      "version": "BFCL v4 official repository snapshot",
+      "status": "present_local",
+      "file_count": 532,
+      "bytes": 188197220,
+      "roles": [
+        "source_repo"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "longmemeval",
+      "source": "xiaowu0162/longmemeval-cleaned",
+      "version": "HF revision 98d7416c24c778c2fee6e6f3006e7a073259d48f",
+      "status": "present_local",
+      "file_count": 27,
+      "bytes": 293930424,
+      "roles": [
+        "source_repo",
+        "task_input"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "ifeval_ifbench_multichallenge",
+      "source": "allenai/IFBench + ScaleAI/MultiChallenge",
+      "version": "IFBench test revisions + MultiChallenge HF revision 670fd81f270314d0f8f82b34fcfe2187fd28f699",
+      "status": "present_local",
+      "file_count": 36,
+      "bytes": 15810704,
+      "roles": [
+        "source_repo",
+        "task_input"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "xstest_harmbench",
+      "source": "paul-rottger/xstest + centerforaisafety/HarmBench",
+      "version": "local shallow clones",
+      "status": "present_local",
+      "file_count": 451,
+      "bytes": 389577422,
+      "roles": [
+        "source_repo"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "gpqa",
+      "source": "idavidrein/gpqa",
+      "version": "repo 83022cefff930aea54f654c0b282e74b9eeda5c6 + extracted diamond csv",
+      "status": "present_local",
+      "file_count": 36,
+      "bytes": 14239290,
+      "roles": [
+        "source_repo",
+        "task_input"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "fineval_finben",
+      "source": "FinEval/FinBen selected tasks",
+      "version": null,
+      "status": "excluded_by_project_scope",
+      "file_count": 0,
+      "bytes": 0,
+      "roles": [],
+      "decision": "exclude"
+    },
+    {
+      "id": "ledger",
+      "source": "artefactory/LEDGER",
+      "version": "HF revision fa3d8b7666b22b3359cd6d57ed8a769d1dc57c09 + repo shallow clone",
+      "status": "present_local",
+      "file_count": 209,
+      "bytes": 80202584,
+      "roles": [
+        "source_repo",
+        "task_input"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    },
+    {
+      "id": "ruler",
+      "source": "NVIDIA/RULER",
+      "version": "shallow source repo; generated samples not yet frozen",
+      "status": "generation_version_pending",
+      "file_count": 31,
+      "bytes": 8750505,
+      "roles": [
+        "source_repo"
+      ],
+      "decision": "freeze_before_publish"
+    },
+    {
+      "id": "fineval",
+      "source": "Salesforce/FinEval + SUFE-AIFLM-Lab/FinEval",
+      "version": "HF revisions a911ec4dbd635228f216349c2f4eda8354ed15cc and ab300028f8836f14c28e80d4e96984bca9902a85",
+      "status": "present_local",
+      "file_count": 1,
+      "bytes": 1016566,
+      "roles": [
+        "task_archive",
+        "task_input"
+      ],
+      "decision": "check_modelscope_then_reuse_or_publish"
+    }
+  ]
+}
