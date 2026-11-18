@@ -38,6 +38,10 @@ ModelScope 的分类约定如下：
 
 具体模板见 [`docs/modelscope-dataset-policy.md`](docs/modelscope-dataset-policy.md)。
 
+## 当前公开状态
+
+本仓库已公开，当前内容是数据治理文档、来源审计、manifest 和 ModelScope 数据集说明。训练数据处理脚本、转换流水线和大文件后续按数据审核结果逐步加入；原始数据和评测数据保留在 ModelScope。
+
 ## 计划目录
 
 ```text
