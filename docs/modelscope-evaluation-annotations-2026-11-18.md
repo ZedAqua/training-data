@@ -103,12 +103,13 @@
 
 ## 12. FinEval
 
+- **评测分轨**：模型侧、闭卷金融知识评测；不属于 Agent 工具调用评测。
 - **用途**：金融知识和金融任务能力回归。
 - **内容**：Salesforce FinEval finance parquet，以及 SUFE FinEval 压缩数据包。
 - **来源**：`Salesforce/FinEval`、`SUFE-AIFLM-Lab/FinEval`，具体 revision 见 Dataset manifest。
-- **评测维度**：中文金融知识、金融概念理解和金融问答。
+- **评测维度**：中文/英文金融知识、金融概念理解和金融问答；默认不提供搜索、MCP 或业务工具。
 - **使用限制**：许可和可再分发条件仍需复核；不得把 FinQA、FinanceIQ 或 FinBen 排除项混入本 Dataset。
-- **建议标签**：`evaluation`、`finance`、`financial-knowledge`、`chinese`
+- **建议标签**：`evaluation`、`model-evaluation`、`finance`、`financial-knowledge`、`closed-book`
 
 ## 13. BFCL v4
 
@@ -139,12 +140,14 @@
 
 ## 16. LEDGER
 
+- **评测分轨**：模型侧长上下文金融文档评测；标准 LEDGER 分数不属于 Agent 工具调用分数。
 - **用途**：金融文档和财务数据推理能力回归。
 - **内容**：LEDGER 评测 parquet 文件，包含金融文档任务和验证所需字段。
 - **来源**：`artefactory/LEDGER`，revision `fa3d8b7666b22b3359cd6d57ed8a769d1dc57c09`。
-- **评测维度**：财报文档理解、金融事实抽取、数值推理和证据定位。
+- **评测维度**：固定 OCR 全文输入下的财报文档理解、金融事实抽取、数值推理和证据定位。
 - **使用限制**：金融原文和 OCR/文档许可需要按上游规则使用；不得把评测题直接转成训练样本。
-- **建议标签**：`evaluation`、`finance`、`financial-documents`、`document-understanding`
+- **使用分轨**：如果通过 Hermes 做文档解析、检索、压缩或工具调用，应另报 Hermes E2E/Agent 结果，不能与模型侧 LEDGER 分数混合。
+- **建议标签**：`evaluation`、`model-evaluation`、`long-context`、`finance`、`financial-documents`、`document-understanding`
 
 ## 17. LiveCodeBench v6
 
