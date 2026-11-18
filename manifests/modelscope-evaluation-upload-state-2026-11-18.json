@@ -90,18 +90,33 @@
       "core_files": [
         "SpreadsheetBench-2-core.zip"
       ]
+    },
+    {
+      "id": "Zed2000/deepresearch-bench-eval",
+      "url": "https://modelscope.cn/datasets/Zed2000/deepresearch-bench-eval",
+      "status": "uploaded_verified",
+      "core_files": [
+        "deepresearch-data.zip"
+      ]
+    },
+    {
+      "id": "Zed2000/fineval-eval",
+      "url": "https://modelscope.cn/datasets/Zed2000/fineval-eval",
+      "status": "uploaded_verified",
+      "core_files": [
+        "salesforce_fineval_mmlu_finance.parquet",
+        "sufe_fineval_zip.zip"
+      ]
     }
   ],
   "pending_local_packages": [
     "swebench_verified",
-    "deepresearch_bench",
     "skillsbench",
     "livecodebench_v6",
     "bfcl",
     "longmemeval",
     "xstest_harmbench",
-    "ledger",
-    "fineval"
+    "ledger"
   ],
   "deferred": [
     "ruler"
