@@ -1,0 +1,105 @@
+{
+  "updated_at": "2026-11-18",
+  "collection": "evaluation-datasets",
+  "visibility": "private",
+  "datasets": [
+    {
+      "id": "Zed2000/aime-eval-2025-2026",
+      "url": "https://modelscope.cn/datasets/Zed2000/aime-eval-2025-2026",
+      "status": "uploaded_verified",
+      "core_files": [
+        "aime25-test.jsonl",
+        "aime26-test.jsonl"
+      ]
+    },
+    {
+      "id": "Zed2000/seal0-eval",
+      "url": "https://modelscope.cn/datasets/Zed2000/seal0-eval",
+      "status": "uploaded_verified",
+      "core_files": [
+        "seal0.json"
+      ]
+    },
+    {
+      "id": "Zed2000/finsearchcomp-t2t3",
+      "url": "https://modelscope.cn/datasets/Zed2000/finsearchcomp-t2t3",
+      "status": "uploaded_verified",
+      "core_files": [
+        "finsearchcomp_data.json"
+      ]
+    },
+    {
+      "id": "Zed2000/finance-agent-v1-v2",
+      "url": "https://modelscope.cn/datasets/Zed2000/finance-agent-v1-v2",
+      "status": "uploaded_verified",
+      "core_files": [
+        "finance-agent-v1.csv",
+        "finance-agent-v2.csv"
+      ],
+      "notes": [
+        "legacy duplicate public.csv remains from first multi-file upload"
+      ]
+    },
+    {
+      "id": "Zed2000/gpqa-diamond",
+      "url": "https://modelscope.cn/datasets/Zed2000/gpqa-diamond",
+      "status": "uploaded_verified",
+      "core_files": [
+        "gpqa_diamond.csv"
+      ]
+    },
+    {
+      "id": "Zed2000/xbench-deepsearch-2510",
+      "url": "https://modelscope.cn/datasets/Zed2000/xbench-deepsearch-2510",
+      "status": "uploaded_verified",
+      "core_files": [
+        "plain-2510.json"
+      ]
+    },
+    {
+      "id": "Zed2000/browsecomp-eval",
+      "url": "https://modelscope.cn/datasets/Zed2000/browsecomp-eval",
+      "status": "uploaded_verified",
+      "core_files": [
+        "browsecomp.json"
+      ]
+    },
+    {
+      "id": "Zed2000/ifeval-ifbench-multichallenge",
+      "url": "https://modelscope.cn/datasets/Zed2000/ifeval-ifbench-multichallenge",
+      "status": "uploaded_verified",
+      "core_files": [
+        "ifbench_test.parquet",
+        "ifbench_multiturn.parquet",
+        "ifeval_multiturn.parquet",
+        "multichallenge_test.parquet"
+      ]
+    },
+    {
+      "id": "Zed2000/tau3-eval",
+      "url": "https://modelscope.cn/datasets/Zed2000/tau3-eval",
+      "status": "uploaded_verified",
+      "core_files": [
+        "tau3-tasks.zip"
+      ]
+    }
+  ],
+  "pending_local_packages": [
+    "spreadsheetbench2",
+    "swebench_verified",
+    "deepresearch_bench",
+    "skillsbench",
+    "livecodebench_v6",
+    "bfcl",
+    "longmemeval",
+    "xstest_harmbench",
+    "ledger",
+    "fineval"
+  ],
+  "deferred": [
+    "ruler"
+  ],
+  "excluded": [
+    "fineval_finben"
+  ]
+}
