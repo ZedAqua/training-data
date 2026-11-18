@@ -107,17 +107,67 @@
         "salesforce_fineval_mmlu_finance.parquet",
         "sufe_fineval_zip.zip"
       ]
+    },
+    {
+      "id": "Zed2000/bfcl-v4-eval",
+      "url": "https://modelscope.cn/datasets/Zed2000/bfcl-v4-eval",
+      "status": "uploaded_verified",
+      "core_files": [
+        "bfcl-data.zip"
+      ]
+    },
+    {
+      "id": "Zed2000/swebench-verified-eval",
+      "url": "https://modelscope.cn/datasets/Zed2000/swebench-verified-eval",
+      "status": "uploaded_verified",
+      "core_files": [
+        "swebench-verified-core.zip"
+      ]
+    },
+    {
+      "id": "Zed2000/xstest-harmbench-eval",
+      "url": "https://modelscope.cn/datasets/Zed2000/xstest-harmbench-eval",
+      "status": "uploaded_verified",
+      "core_files": [
+        "xstest-core.zip",
+        "harmbench-data.zip"
+      ]
+    },
+    {
+      "id": "Zed2000/ledger-eval",
+      "url": "https://modelscope.cn/datasets/Zed2000/ledger-eval",
+      "status": "uploaded_verified",
+      "core_files": [
+        "ledger_eval.parquet"
+      ]
+    },
+    {
+      "id": "Zed2000/livecodebench-v6-eval",
+      "url": "https://modelscope.cn/datasets/Zed2000/livecodebench-v6-eval",
+      "status": "uploaded_verified",
+      "core_files": [
+        "livecodebench_v6.jsonl"
+      ]
+    },
+    {
+      "id": "Zed2000/longmemeval-eval",
+      "url": "https://modelscope.cn/datasets/Zed2000/longmemeval-eval",
+      "status": "uploaded_verified",
+      "core_files": [
+        "longmemeval_s_cleaned.json",
+        "longmemeval_oracle.json"
+      ]
+    },
+    {
+      "id": "Zed2000/skillsbench-eval",
+      "url": "https://modelscope.cn/datasets/Zed2000/skillsbench-eval",
+      "status": "uploaded_verified",
+      "core_files": [
+        "skillsbench-core.zip"
+      ]
     }
   ],
-  "pending_local_packages": [
-    "swebench_verified",
-    "skillsbench",
-    "livecodebench_v6",
-    "bfcl",
-    "longmemeval",
-    "xstest_harmbench",
-    "ledger"
-  ],
+  "pending_local_packages": [],
   "deferred": [
     "ruler"
   ],
